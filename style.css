@@ -1,0 +1,108 @@
+
+/* Algemene opmaak */
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Bovenkant van de website */
+header {
+    background-color: #171717;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 5px solid #e63924;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #e63924;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Navigatiemenu */
+nav {
+    background-color: #292929;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ff4935;
+    text-decoration: underline;
+}
+
+/* Hoofdinhoud */
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #bbbbbb;
+}
+
+h2 {
+    color: #d92d20;
+    font-size: 26px;
+}
+
+h3 {
+    color: #292929;
+}
+
+/* Afbeelding */
+img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Kaarten op de pagina's */
+.kaart {
+    background-color: #f5f5f5;
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #e63924;
+    border-radius: 8px;
+}
+
+
+/* Voor kleine schermen */
+@media (max-width: 600px) {
+    main {
+        width: 85%;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    img {
+        height: 220px;
+    }
+}
